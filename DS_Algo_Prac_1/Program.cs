@@ -36,14 +36,14 @@ namespace DS_Algo_Prac_1
                 } while (height <= 0);
             }
 
-            area = AreaOfCylinder(rad, height);
+            area = VolumeOfCylinder(rad, height);
 
             Console.WriteLine("Area of Cylinder is {0}", area);
             Console.ReadLine();
 
         }
 
-        public static double AreaOfCylinder(int radius, int height)
+        public static double VolumeOfCylinder(int radius, int height)
         {
             int radSq = radius * radius;
             double pi = Math.PI;
