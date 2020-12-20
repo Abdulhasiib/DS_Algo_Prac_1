@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DS_Algo_Prac_1.Bubble_Sort_1</StartupObject>
+    <StartupObject>DS_Algo_Prac_1.LeetCode_1528_ShuffleString_BubbleSort</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Bubble_Sort_1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LeetCode_1528_ShuffleString_BubbleSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
